@@ -69,5 +69,6 @@
     "update.showReleaseNotes": false,
     "update.enableWindowsBackgroundUpdates": false,
     "update.mode": "none",
-    "extensions.autoUpdate": false
+    "extensions.autoUpdate": false,
+	"C_Cpp.debugShortcut": false	
 }
