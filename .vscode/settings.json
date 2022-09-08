@@ -4,7 +4,7 @@
         "javascript": "node",
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
         "c": "cd $dir && gcc *.c -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "cpp": "cd $dir && g++ -Wall -Wextra -Wpedantic  -Wconversion -fexceptions *.cpp -o $fileNameWithoutExt.exe && start cmd \"/k ; gdb $fileNameWithoutExt.exe -ex run -ex quit -batch -q\"",
+        "cpp": "cd $dir && g++ -Wall -Wextra -Wpedantic  -Wconversion -fexceptions *.cpp -o $fileNameWithoutExt.exe && start cmd \"/k ; gdb $fileNameWithoutExt.exe -ex run -batch -q\"",
         "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "php": "php",
         "python": "python -u",
